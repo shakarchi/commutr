@@ -1,0 +1,11 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+   <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="post in posts">
+      	<p>{{post.location}} {{post.datePosted}}</p>
+        <p>{{post.message}}</p>
+        <p>{{post.datePosted}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

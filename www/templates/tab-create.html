@@ -1,0 +1,13 @@
+<ion-view view-title="Create">
+  <ion-content>
+  {{hello.message}}
+	<form ng-submit="createMessage()">
+	    <input name="message" ng-model="data.message"/>
+	    <input name="location" ng-model="data.location"/>
+	    <button type="submit">Send</button>
+	</form>
+	<form ng-submit="getLocation()">
+		<button type="submit">Get Location </button>
+	</form>
+  </ion-content>
+</ion-view>
